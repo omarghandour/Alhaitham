@@ -1,0 +1,94 @@
+.Minue{
+     display: flex;
+     flex-direction: column;
+     gap: 50px;
+}
+
+
+.lright{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 40px;
+     width: 40%;}
+.lleft{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 40px;
+     width: 40%;
+}
+.lists{
+     display: flex;
+     justify-content: space-around;
+}
+.lists2{
+     display: flex;
+    justify-content: space-around;
+}
+.lists3{
+     display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.l2right,
+.l2left{
+     width: 40%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 40px;
+}
+table {
+     border-collapse: collapse;
+     width: 100%;
+     
+   }
+   
+   th, td {
+     border: 1px solid black;
+     padding: 15px;
+     text-align: center;
+   }
+   
+   th {
+     background-color: #ff0000d1;
+     color: white;
+   }
+   .tables{
+     display: flex;
+     -ms-flex-pack: distribute;
+     justify-content: space-around;
+     height: 130%;  
+   }
+   .smTable{
+     height: 40%;
+   }
+   @media (max-width: 700px) {
+     .lists{
+          flex-direction: column;
+     }
+     .lleft, 
+     .lright{
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 50px;
+          }
+          table{
+               width: 95% !important;
+          }
+          .lists2 {
+               display: flex;
+               justify-content: space-around;
+               flex-direction: column;
+               align-items: center;
+          }
+          .l2right, .l2left {
+               width: 100%;
+          }
+          .lists3{
+               flex-direction: column;
+          }
+   }
